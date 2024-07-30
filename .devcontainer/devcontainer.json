@@ -1,0 +1,17 @@
+{
+    "name": "Flight Status and Notifications",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+      "ms-python.python",
+      "golang.go",
+      "vscjava.vscode-java-pack",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [3000, 8000, 5000],
+    "postCreateCommand": "pip install -r requirements.txt"
+  }
+  
